@@ -24,7 +24,7 @@ namespace CompAndDel
                 {
                     for (int w = 0; w <image.Width; w++)
                     {
-                        picture.SetColor(w, h, System.Drawing.Color.FromArgb(image[w, h].A, image[w, h].R, image[w, h].G, image[w, h].B));
+                       picture.SetColor(w, h, Color.FromArgb(image[w, h].A, image[w, h].R, image[w, h].G, image[w, h].B));
                     }
                 }
             }
